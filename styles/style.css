@@ -66,6 +66,10 @@ body{
     cursor: pointer;
 }
 
+.menu{
+    display: none;
+}
+
 /* banner styles */
 .banner{
     display: flex;
@@ -118,6 +122,10 @@ body{
     border: 1px solid white;
 }
 
+.jn{
+    display: none;
+}
+
 .banner-image{
     position: relative;
 }
@@ -144,7 +152,7 @@ body{
 
 .workout-videos h4{
     color: rgb(255, 255, 255);
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 900;
 }
 
@@ -166,7 +174,7 @@ body{
     background: rgba(48, 48, 48, 0.54);
     gap: 12px;
     position: absolute;
-    bottom: 63px;
+    top: 421px;    
     left: -113px;
 }
 
@@ -180,7 +188,7 @@ body{
 
 .videos-tutorial h4{
     color: rgb(250, 250, 249);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 900;
 }
 

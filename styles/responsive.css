@@ -1,0 +1,94 @@
+@media screen and (max-width: 576px) {
+    /* navbar styles */
+    .navbar{
+        margin: 50px 20px 0px;
+    }
+
+    .nav-options{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+        color: white;
+        font-size: 1.125rem;
+        font-weight: 600;
+    }
+
+    /* banner styles */
+    .banner{
+        flex-direction: column;
+        align-items: start;
+        margin: 50px 20px 0px;
+    }
+
+    .banner-info h1{
+        font-size: 2.25rem;
+    }
+
+    .shape{
+        font-size: 2.25rem;
+    }
+
+    .banner-info p{
+        width: 274px;
+        height: 96px;
+    }
+
+    .banner-btn{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 48px;
+    }
+
+    .jcn{
+        display: none;
+    }
+
+    .jn{
+        display: block;
+    }
+
+    .workout-videos{
+        width: 145.91px;
+        height: 74.09px;
+        border: 0.76px solid rgba(255, 255, 255, 0.1);
+        border-radius: 9.07px;
+        backdrop-filter: blur(15.12px);
+        top: 47.6px;
+        right: 12.89px;
+    }
+
+    .workout-videos h4{
+        font-size: 1.89rem;
+    }
+
+    .workout-videos p{
+        font-size: 9.83px;
+    }
+
+    .videos-tutorial{
+        width: 155.74px;
+        height: 72.58px;
+        border: 0.76px solid rgba(255, 255, 255, 0.1);
+        border-radius: 9.07px;
+        backdrop-filter: blur(15.12px);
+        top: 271.38px;
+        left: 12px;
+    }
+
+    .circle{
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .videos-tutorial h4{
+        font-size: 1.125rem;
+        font-weight: 900;
+    }
+
+    .videos-tutorial p{
+        font-size: 12px;
+    }
+}
