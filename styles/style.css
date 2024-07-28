@@ -197,3 +197,59 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
+
+.habits-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.habits-text{
+    text-align: center;
+}
+
+.habits-text h1{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;    
+}
+
+.habits-text p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 14px 0px 58px;
+}
+
+.habits-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.habits-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.habits-card h4{
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin: 30px 0px 6px;
+}
+
+.habits-card p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;    
+}
+
+.habits-card img{
+    border-radius: 50%;
+}
