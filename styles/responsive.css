@@ -107,6 +107,38 @@
         display: flex;
         flex-direction: column;
     }
+
+    /* run section styles */
+    .run-container{
+        max-width: 353px;
+        margin-top: 66px;
+    }
+
+    .run-content{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 31px 33px 35px;
+    }
+
+    
+    .run-text h1{
+        font-size: 2rem;
+    }
+
+    .run-text p{
+        margin: 14px 0px 24px; 
+    }
+
+    .run-text button{
+        padding: 16px 100px;
+    }
+
+    .run-img img{
+        width: 287px;
+        height: 170px;
+        margin-top: 31px;
+    }
 }
 
 
