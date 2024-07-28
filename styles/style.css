@@ -307,3 +307,87 @@ body{
     border-radius: 18px;
     object-fit: cover;
 }
+
+/* team section styles */
+.team-container{
+    margin-top: 88px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-text{
+    text-align: center;
+}
+
+.team-text h1{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.team-text p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 14px 0px 58px;
+}
+
+.team-cards{
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.team-card{
+    width: 326.67px;
+    height: 272px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.team-card-text{
+    padding: 15px;
+}
+
+.team-cards h4{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+.team-cards p{
+    color: rgb(255, 255, 255, 0.8);
+    font-size: 12px;
+}
+
+.jerome{
+    background-image: url(/images/trainer1.png);
+}
+
+.cameron{
+    background-image: url(/images/trainer2.png);
+}
+
+.darrell{
+    background-image: url(/images/trainer3.png);
+}
+
+.dianne{
+    background-image: url(/images/trainer4.png);
+}
+
+.cody{
+    background-image: url(/images/trainer5.png);
+}
+
+.theresa{
+    background-image: url(/images/trainer6.png);
+}
