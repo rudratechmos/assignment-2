@@ -254,3 +254,56 @@ body{
 .habits-card img{
     border-radius: 50%;
 }
+
+/* run section styles */
+.run-container{
+    max-width: 1060px;
+    margin: 0 auto;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin-top: 100px;
+}
+
+.run-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 41px 54px 40px 32px;
+}
+
+.run-text{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.run-text h1{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;    
+}
+
+.run-text p{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400; 
+    margin: 14px 0px 34px; 
+}
+
+.run-text button{
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 42px;
+    border: none;
+    background: rgb(230, 83, 60);
+    padding: 16px 80px;
+    cursor: pointer;
+}
+
+.run-img img{
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+    object-fit: cover;
+}
