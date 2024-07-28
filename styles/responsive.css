@@ -91,4 +91,22 @@
     .videos-tutorial p{
         font-size: 12px;
     }
+
+    /* habits section styles */
+    .habits-container{
+        margin-top: 450px;
+    }
+    .habits-text h1{
+        font-size: 2rem;
+    }
+    .habits-cards{
+        flex-direction: column;
+        gap: 36px;
+    }
+    .habits-card{
+        display: flex;
+        flex-direction: column;
+    }
 }
+
+
