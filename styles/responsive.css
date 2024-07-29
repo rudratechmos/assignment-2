@@ -110,7 +110,7 @@
 
     /* run section styles */
     .run-container{
-        max-width: 353px;
+        width: 353px;
         margin-top: 66px;
     }
 
@@ -138,6 +138,27 @@
         width: 287px;
         height: 170px;
         margin-top: 31px;
+    }
+
+    /* team section styles */
+    .team-container{
+        margin-top: 66px;
+    }
+
+    .team-text h1{
+        font-size: 2rem;
+    }
+
+    .team-text p{
+        margin: 14px 0px 37px;
+    }
+
+    .team-cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .team-card{
+        max-width: 313px;
     }
 }
 
