@@ -369,25 +369,25 @@ body{
 }
 
 .jerome{
-    background-image: url(/images/trainer1.png);
+    background-image: url(../images/trainer1.png);
 }
 
 .cameron{
-    background-image: url(/images/trainer2.png);
+    background-image: url(../images/trainer2.png);
 }
 
 .darrell{
-    background-image: url(/images/trainer3.png);
+    background-image: url(../images/trainer3.png);
 }
 
 .dianne{
-    background-image: url(/images/trainer4.png);
+    background-image: url(../images/trainer4.png);
 }
 
 .cody{
-    background-image: url(/images/trainer5.png);
+    background-image: url(../images/trainer5.png);
 }
 
 .theresa{
-    background-image: url(/images/trainer6.png);
+    background-image: url(../images/trainer6.png);
 }
