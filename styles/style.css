@@ -17,11 +17,11 @@ body{
 
 /*header styles */
 .header-container{
-    max-width: 1440px;
+    /* max-width: 1440px; */
     height: 715px;
     margin: 0 auto;
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 /* navbar styles */
@@ -29,7 +29,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 57px 190px 32px;
+    /* margin: 57px 190px 32px; */
+    padding: 57px 190px 32px;
+
 }
 
 .navbar h4{
@@ -75,7 +77,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 190px;
+    /* margin: 0px 190px; */
+    padding: 0px 190px;
 }
 
 .banner-info h1{
@@ -259,6 +262,7 @@ body{
 .run-container{
     max-width: 1060px;
     margin: 0 auto;
+    /* margin: 0 220px; */
     border-radius: 18px;
     background: rgb(34, 34, 34);
     margin-top: 100px;
@@ -302,7 +306,7 @@ body{
 }
 
 .run-img img{
-    width: 366px;
+    max-width: 366px;
     height: 312px;
     border-radius: 18px;
     object-fit: cover;
@@ -400,7 +404,7 @@ body{
 
 /* footer styles */
 .footer-container{
-    max-width: 1440px;
+    /* max-width: 1440px; */
     height: 489px;
     margin: 0 auto;
     background: rgba(255, 255, 255, 0.1);
@@ -461,6 +465,7 @@ body{
 
 hr{
     width: 1059.5px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 .copyright{

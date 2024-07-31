@@ -1,7 +1,8 @@
 @media screen and (max-width: 576px) {
     /* navbar styles */
     .navbar{
-        margin: 50px 20px 0px;
+        /* margin: 50px 20px 0px; */
+        padding: 50px 20px 0px;
     }
 
     .nav-options{
@@ -19,7 +20,9 @@
     .banner{
         flex-direction: column;
         align-items: start;
-        margin: 50px 20px 0px;
+        /* margin: 50px 20px 0px; */
+        padding: 50px 20px 0px;
+
     }
 
     .banner-info h1{
@@ -110,7 +113,8 @@
 
     /* run section styles */
     .run-container{
-        width: 353px;
+        max-width: 353px;
+        /* margin: 0 20px; */
         margin-top: 66px;
     }
 
@@ -135,7 +139,7 @@
     }
 
     .run-img img{
-        width: 287px;
+        max-width: 287px;
         height: 170px;
         margin-top: 31px;
     }
@@ -159,6 +163,26 @@
 
     .team-card{
         max-width: 313px;
+    }
+
+    /* footer styles */
+    .footer-container{
+        /* max-width: 393px; */
+        height: 986px;
+    }
+
+    .footer-content{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-options{
+        margin-top: 30px;
+    }
+
+    hr{
+        width: 354px;
+        border: 2px solid rgba(255, 255, 255, 0.1);
     }
 }
 
