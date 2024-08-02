@@ -432,6 +432,7 @@ form input{
     color: rgb(255, 255, 255);
     font-size: 1.125rem;
     font-weight: 600;
+    border: none;
     border-radius: 42px;
     background-color: rgb(230, 83, 60);
     padding: 16px 80px;
