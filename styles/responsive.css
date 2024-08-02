@@ -144,6 +144,83 @@
         margin-top: 31px;
     }
     
+    /* bmi section styles */
+    .bmi-text{
+        margin: 66px 30px 32px;
+    }
+
+    .bmi-text h1{
+        font-size: 2rem;
+    }
+
+    .bmi-text p{
+        margin-top: 14px;
+    }
+
+    .bmi-calculator{
+        flex-direction: column;
+        margin-top: 32px;
+        padding-left: 15px;
+    }
+
+    .bmi-chart{
+        margin-top: 34px;
+    }
+
+    .bmi-chart table{
+        margin-top: 23px;
+    }
+
+    .bmi-chart h3{
+        font-size: 16px;
+    }
+
+    .bmi-chart th, td{
+        padding: 13px 24px;
+    } 
+
+    .calculate-bmi{
+        margin-top: 42px;
+        /* padding-left: 10px; */
+    }
+
+    .calculate-bmi h3{
+        font-size: 16px;
+    }
+
+    .calculate-bmi p{
+        margin: 14px 0px 34px;   
+    }
+
+    form input[type="text"]{
+        width: 160.5px;
+        height: 48px;
+        margin-right: 12px;
+        margin-bottom: 12px;
+    }
+
+    form input{
+        padding-left: 20px;
+    }
+
+    .select-1{
+        width: 181px;
+        height: 48px;
+        padding-left: 2 0px;
+    }
+
+    .select-2{
+        width: 380px;
+        height: 48px;
+        padding-left: 20px;
+    }
+
+    .calculate-bmi button{
+        padding: 16px 40px;
+        margin-top: 34px;
+        margin-bottom: 43px;
+    }
+
     /* team section styles */
     .team-container{
         margin-top: 66px;

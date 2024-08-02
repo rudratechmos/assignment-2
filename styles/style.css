@@ -21,7 +21,6 @@ body{
     height: 715px;
     margin: 0 auto;
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-    /* border: 1px solid black; */
 }
 
 /* navbar styles */
@@ -29,7 +28,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* margin: 57px 190px 32px; */
     padding: 57px 190px 32px;
 
 }
@@ -112,6 +110,7 @@ body{
     font-weight: 600; 
     padding: 16px 40px;
     border-radius: 42px;
+    cursor: pointer;
 }
 
 .banner-btn-1{
@@ -331,10 +330,9 @@ body{
 }
 
 .bmi-calculator{
-    height: 487px;
+    /* height: 487px; */
     display: flex;
     justify-content: space-around;
-    /* align-items: center; */
     background-color: rgb(34, 34, 34);
     margin-top: 88px;
 
@@ -440,6 +438,7 @@ form input{
     padding: 16px 80px;
     margin-top: 50px;
     cursor: pointer;
+    margin-bottom: 52px;
 }
 
 /* team section styles */
