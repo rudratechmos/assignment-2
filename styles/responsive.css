@@ -160,7 +160,7 @@
     .bmi-calculator{
         flex-direction: column;
         margin-top: 32px;
-        padding-left: 10px;
+        align-items: center;
     }
 
     .bmi-chart{
@@ -180,6 +180,8 @@
     } 
 
     .calculate-bmi{
+        max-width: 354px;
+        margin: 0 auto;
         margin-top: 42px;
     }
 
@@ -192,9 +194,9 @@
     }
 
     form input[type="text"]{
-        width: 150.5px;
+        max-width: 130px;
         height: 48px;
-        margin-right: 12px;
+        margin-right: 0px;
         margin-bottom: 12px;
     }
 
@@ -203,13 +205,13 @@
     }
 
     .select-1{
-        width: 171px;
+        max-width: 150px;
         height: 48px;
         padding-left: 2 0px;
     }
 
     .select-2{
-        width: 358px;
+        max-width: 305px;
         height: 48px;
         padding-left: 20px;
     }

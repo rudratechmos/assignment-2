@@ -330,7 +330,6 @@ body{
 }
 
 .bmi-calculator{
-    /* height: 487px; */
     display: flex;
     justify-content: space-around;
     background-color: rgb(34, 34, 34);
