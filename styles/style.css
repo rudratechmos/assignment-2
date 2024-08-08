@@ -17,7 +17,6 @@ body{
 
 /*header styles */
 .header-container{
-    /* max-width: 1440px; */
     height: 715px;
     margin: 0 auto;
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
@@ -45,7 +44,7 @@ body{
     gap: 47px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
-    padding: 4px;
+    padding: 4px 20px 4px 4px;
 }
 
 .nav-options a{
@@ -533,9 +532,9 @@ form input{
 
 /* footer styles */
 .footer-container{
-    /* max-width: 1440px; */
     height: 489px;
     margin: 0 auto;
+    padding: 0 20px;
     background: rgba(255, 255, 255, 0.1);
     margin-top: 88px;
     display: flex;
