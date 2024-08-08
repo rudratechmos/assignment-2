@@ -261,6 +261,23 @@
         gap: 0px;
     }
 
+    .join-content h1{
+        font-size: 2rem;
+    }
+
+    .join-form{
+        flex-direction: column;
+    }
+
+    .join-form input[type="text"],[type="email"],[type="number"]{
+        max-width: 300px;
+    }
+
+    .join-select{
+        max-width: 230px;
+    }
+
+
     /* footer styles */
     .footer-container{
         height: 986px;
