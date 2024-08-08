@@ -245,9 +245,24 @@
         max-width: 313px;
     }
 
+    /* schedule styles */
+    .schedule-container{
+        max-width: 353px;
+    }
+
+    .schedule-content h1{
+        font-size: 2rem;
+        margin: 20px 0px;
+    }
+    
+    .schedules{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
     /* footer styles */
     .footer-container{
-        /* max-width: 393px; */
         height: 986px;
     }
 
