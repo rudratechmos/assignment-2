@@ -142,6 +142,7 @@
         max-width: 287px;
         height: 170px;
         margin-top: 31px;
+        object-fit: cover;
     }
     
     /* bmi section styles */

@@ -260,7 +260,6 @@ body{
 .run-container{
     max-width: 1060px;
     margin: 0 auto;
-    /* margin: 0 220px; */
     border-radius: 18px;
     background: rgb(34, 34, 34);
     margin-top: 100px;
@@ -286,7 +285,7 @@ body{
 }
 
 .run-text p{
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400; 
     margin: 14px 0px 34px; 
@@ -307,7 +306,8 @@ body{
     max-width: 366px;
     height: 312px;
     border-radius: 18px;
-    object-fit: cover;
+    object-fit: none;
+    object-position: 66% 33%;
 }
 
 /* bmi section styles */
