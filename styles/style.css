@@ -74,7 +74,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* margin: 0px 190px; */
     padding: 0px 190px;
 }
 
@@ -605,6 +604,7 @@ form input{
     color: rgba(255, 255, 255, 0.6);
     background: rgba(255, 255, 255, 0.1);
     padding-left: 13px;
+    border-right: 12px solid transparent;
 }
 
 .select-2{
@@ -615,6 +615,7 @@ form input{
     color: rgba(255, 255, 255, 0.6);
     background: rgba(255, 255, 255, 0.1);
     padding-left: 13px;
+    border-right: 12px solid transparent;
 }
 
 .calculate-bmi button{
@@ -814,6 +815,7 @@ form input{
     color: rgba(255, 255, 255, 0.6);
     background: rgba(255, 255, 255, 0.1);
     padding-left: 13px;
+    border-right: 12px solid transparent;
 }
 
 .join-select option{
