@@ -310,6 +310,195 @@ body{
     object-position: 66% 33%;
 }
 
+/* training styles */
+.training-container{
+    max-width: 1060px;
+    margin: 100px auto 0px;
+}
+
+.training-content h1{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;   
+}
+
+.training-content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 14px 0px 58px;
+}
+
+.training-cards{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.training-cards img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    position: relative;
+    z-index: 0;
+}
+
+.grid-item-1{
+    position: relative;
+    overflow: hidden;
+    grid-column: span 3;
+}
+
+.grid-item-1 p{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 500;
+    z-index: 2;
+    transform: translate(50%, 900%); 
+}
+
+.grid-item-1::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(6, 255, 210, 0.5);
+    z-index: 1;
+}
+
+.grid-item-2{
+    position: relative;
+    overflow: hidden;
+    grid-column: span 4;
+}
+
+.grid-item-2 p{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    z-index: 2;
+    transform: translate(50%, 100%); 
+}
+
+.grid-item-2::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.grid-item-3{
+    position: relative;
+    overflow: hidden;
+    grid-column: span 3;
+}
+
+.grid-item-3 p{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    z-index: 2;
+    transform: translate(20%, 450%); 
+}
+
+.grid-item-3::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.grid-item-4{
+    position: relative;
+    overflow: hidden;
+    grid-column: span 4;
+}
+
+.grid-item-4 p{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    z-index: 2;
+    transform: translate(165%, 50%); 
+}
+
+.grid-item-4::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.grid-item-5{
+    position: relative;
+    overflow: hidden;
+    grid-column: span 3;
+}
+
+.grid-item-5 p{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    z-index: 2;
+    transform: translate(20%, 500%); 
+}
+
+.grid-item-5::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(66, 255, 0, 0.3);
+    z-index: 1;
+}
+
+.grid-item-6{
+    position: relative;
+    overflow: hidden;
+    grid-column: span 3;
+}
+
+.grid-item-6 p{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    z-index: 2;
+    transform: translate(20%, 500%); 
+}
+
+.grid-item-6::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 71, 255, 0.3);
+    z-index: 1;
+}
+
 /* bmi section styles */
 .bmi-text{
     margin: 88px 384.5px 0px;
